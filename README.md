@@ -4,7 +4,6 @@ This project is a full-fledged user management system built using MongoDB, Node.
 
 ✨ Features:
 
-
 ✅ Create User – Add new users with essential details.
 ✅ Read Users – Fetch and display all user records from the database.
 ✅ Edit User – Modify existing user details with real-time updates.
@@ -12,7 +11,6 @@ This project is a full-fledged user management system built using MongoDB, Node.
 ✅ Delete All Users – Clear all user data in a single action.
 
 🛠 Tech Stack:
-
 
 Backend: Node.js, Express.js
 Database: MongoDB (Mongoose ODM)
