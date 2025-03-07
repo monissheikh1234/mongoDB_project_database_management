@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-slate-800">
+    <h1>Edit</h1>
+    <a href="/">back to Home</a>
+    <div>
+        <form action="/edituser" method="post">
+            <input type="hidden" name="id" value="<%= user._id %>">
+            <input type="text" name="uname" id="" placeholder="Username" value=" <%= user.name %>" class="text-white-200">
+            <input type="text" name="email" id="" placeholder="Email" value=" <%= user.email %>" class="text-white-200">
+            <input type="text" name="phone" id="" placeholder="Phone" value=" <%= user.phone %>" class="text-white-200">
+            <input type="text" name="img_url" id="" placeholder="img_url" value=" <%= user.img_url %>" class="text-white-200">
+            <input type="submit" value="Submit" >
+        </form>
+    </div>
+</body>
+</html>
