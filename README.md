@@ -39,5 +39,9 @@ Styling: Tailwind CSS / CSS
 4️⃣ User Deletion: Remove a single user or clear all data.
 
 
+https://github.com/user-attachments/assets/b8fb0045-6831-4a03-b6d9-c95e2a4fad45
+
+
+
 
 This project ensures a smooth and efficient way to manage users with a clean and responsive UI. 🚀🔥
